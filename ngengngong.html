@@ -77,7 +77,7 @@
       const swalst = Swal.mixin({
         allowOutsideClick: false,
         showConfirmButton: false,
-        timer: 5000,
+        timer: 10000,
         timerProgressBar: true,
       })
 
@@ -119,6 +119,12 @@
         await swalst.fire({
           title: "Gapapa marah tapi jangan lama-lama :(",
           imageUrl: "https://i.postimg.cc/PJCZ2wGV/hahaha-lol.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        })
+        await swalst.fire({
+          title: "Lope youuuuuuuuuu",
+          imageUrl: "https://i.pinimg.com/originals/71/63/77/716377192db28caf4785e037fce39e5d.gif",
           imageWidth: 120,
           imageHeight: 120,
         })
